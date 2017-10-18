@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1737684F1F75552600615F41 /* createEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737684E1F75552600615F41 /* createEvent.swift */; };
+		173768511F755C2100615F41 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173768501F755C2100615F41 /* Connection.swift */; };
 		17E08AE71F5EE0A90092161F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E08AE61F5EE0A90092161F /* AppDelegate.swift */; };
 		17E08AE91F5EE0A90092161F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E08AE81F5EE0A90092161F /* ViewController.swift */; };
 		17E08AEC1F5EE0A90092161F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E08AEA1F5EE0A90092161F /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		17E08AF11F5EE0A90092161F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E08AEF1F5EE0A90092161F /* LaunchScreen.storyboard */; };
 		17E08AFC1F5EE0AA0092161F /* testAmmodysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E08AFB1F5EE0AA0092161F /* testAmmodysTests.swift */; };
 		17E08B071F5EE0AA0092161F /* testAmmodysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E08B061F5EE0AA0092161F /* testAmmodysUITests.swift */; };
+		17F57F4A1F86A981008F050E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F57F491F86A981008F050E /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1737684E1F75552600615F41 /* createEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createEvent.swift; sourceTree = "<group>"; };
+		173768501F755C2100615F41 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		17E08AE31F5EE0A90092161F /* testAmmodys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testAmmodys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E08AE61F5EE0A90092161F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17E08AE81F5EE0A90092161F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		17E08B021F5EE0AA0092161F /* testAmmodysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testAmmodysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E08B061F5EE0AA0092161F /* testAmmodysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAmmodysUITests.swift; sourceTree = "<group>"; };
 		17E08B081F5EE0AA0092161F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F57F491F86A981008F050E /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				17E08AE61F5EE0A90092161F /* AppDelegate.swift */,
 				17E08AE81F5EE0A90092161F /* ViewController.swift */,
 				17E08AEA1F5EE0A90092161F /* Main.storyboard */,
+				17F57F491F86A981008F050E /* Event.swift */,
 				17E08AED1F5EE0A90092161F /* Assets.xcassets */,
 				17E08AEF1F5EE0A90092161F /* LaunchScreen.storyboard */,
 				17E08AF21F5EE0A90092161F /* Info.plist */,
+				1737684E1F75552600615F41 /* createEvent.swift */,
+				173768501F755C2100615F41 /* Connection.swift */,
 			);
 			path = testAmmodys;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1737684F1F75552600615F41 /* createEvent.swift in Sources */,
 				17E08AE91F5EE0A90092161F /* ViewController.swift in Sources */,
 				17E08AE71F5EE0A90092161F /* AppDelegate.swift in Sources */,
+				173768511F755C2100615F41 /* Connection.swift in Sources */,
+				17F57F4A1F86A981008F050E /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +519,7 @@
 				17E08B0D1F5EE0AA0092161F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17E08B0E1F5EE0AA0092161F /* Build configuration list for PBXNativeTarget "testAmmodysTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				17E08B101F5EE0AA0092161F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17E08B111F5EE0AA0092161F /* Build configuration list for PBXNativeTarget "testAmmodysUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				17E08B131F5EE0AA0092161F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
